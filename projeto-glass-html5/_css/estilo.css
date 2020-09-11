@@ -1,10 +1,33 @@
 @charset "UTF-8";
 
 body {
-	background-color: white;
+	background-color: #dddd;
 	color: rgba(0, 0, 0, 1);
 }
-p {
+
+div#interface
+{
+	width: 1300px;
+	background: #ffffff;
+	margin: -20px auto 0px auto;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, .5); /* primeiro valor é para horizontal, 
+	segundo para vertical e o terceiro é o quanto difuso isso vai ser */
+	padding: 10px;
+}
+
+header#cabecalho img#icone
+{
+	position:absolute;
+	left: 1190px;
+	top: 40px;
+}
+header#cabecalho
+{
+	
+}
+
+p 
+{
 	text-align: justify;
 	text-indent: 50px;
 }
@@ -42,4 +65,55 @@ figure.foto-legenda figcaption
 figure.foto-legenda:hover figcaption
 {
 	opacity: 1;
+}
+
+/* Formatação para MENU */
+/* sempre que alguma TAG tiver ID a para se indeitificar o ID, após a TAG se colocar 
+a "#" */
+nav#menu 
+{
+	display:block;
+}
+
+nav#menu ul
+{
+	display:block;
+	position:absolute;
+	top: -20px;
+	left: 700px;
+}
+
+nav#menu li:hover
+{
+	background-color: #606060;
+}
+nav#menu ul
+{
+	list-style:none;
+	text-transform: uppercase;
+}
+
+nav#menu li
+{
+	display: inline-block;
+	background-color:#dddd;
+	padding: 10px;
+	margin: 2px;
+	transition: background-color 1s;
+}
+
+nav#menu h1
+{
+	display: none;
+}
+
+nav#menu a 
+{
+	color:#000000;
+	text-decoration: none;
+}
+
+nav#menu a:hover
+{
+	color: #ffffff;
 }
