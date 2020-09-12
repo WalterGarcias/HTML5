@@ -1,3 +1,7 @@
 -preferêncialmente usar nome de arquivos comletras minusculas, ao menos no começo e SEM ESPAÇO
 
 -Os arquivos HTML segue por padrão o formato de texto ANSI, mas no Brasil nós usamos o UTF-8, por isso se não formatamos isso teremos problema nos textos. 
+
+Códigos e novidades html5
+
+<nav> </nav> ; são tags de navegação usamos elas 
