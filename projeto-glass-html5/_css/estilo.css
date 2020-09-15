@@ -144,3 +144,36 @@ nav#menu a:hover
 {
 	color: #ffffff;
 }
+section#corpo
+{
+	display:block;
+	width:680px;
+	float:left;
+	border-right:1px solid #606060;
+	padding-right:25px;
+	margin: 0px 10px 0px 10px;
+}
+
+aside#lateral 
+{
+	display:block;
+	width:550px;
+	float:right;
+	margin: 0px 10px 0px 10px;
+}
+footer#rodape
+{
+	clear: both; /*para limpar formatação acima */
+	border-top:1px solid #606060;
+}
+
+footer#rodape p 
+{
+	text-align: center;
+}
+
+footer#rodape a
+{
+	text-decoration: none;
+	color: #000000;
+}
